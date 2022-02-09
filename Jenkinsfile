@@ -39,7 +39,7 @@ pipeline {
         }
 	stage('Deploy') {
             steps {
-		    sh 'docker cp /root/.jenkins/workspace/pipeline/target/*.war 4290ba53a51f:/opt/tomcat/webapps/'
+		    sh 'docker cp /root/.jenkins/workspace/dd/target/*.war 4290ba53a51f:/opt/tomcat/webapps/'
             }
         }
   }
