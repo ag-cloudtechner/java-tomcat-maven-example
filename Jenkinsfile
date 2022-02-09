@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',		    
-		credentialsId: '94debc7e-4fbd-4317-b2f2-f5a7c8aefe8c',
+		credentialsId: '94ac03cc-9a87-4df7-ad17-380b4eebc193',
 			url: "https://github.com/ag-cloudtechner/java-tomcat-maven-example.git"    
 	    }
 	}	
